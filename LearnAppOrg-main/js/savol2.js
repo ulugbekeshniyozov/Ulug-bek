@@ -1,21 +1,21 @@
-var Stext1 = "1";
-var Stext2 = "1,37x1024";
-var Stext3 = "Quyosh radiatsiyasi";
-var Stext4 = "97 %";
-var Stext5 = "Quyosh doimiyligi";
-var Stext6 = "Tarqoq";
-var Stext7 = "To'g'ri";
-var Stext8 = "Yalpi";
+var Stext1 = "225 azimut bilan janubi-g’arbiy yo’nalish  ";
+var Stext2 = "900  azimut bilan, sharqiy yo’nalish";
+var Stext3 = "shimol";
+var Stext4 = "3000 azimut";
+var Stext5 = "shimoli-g’arb";
+var Stext6 = "1800 azimut burchagi";
+var Stext7 = "Janub ";
+var Stext8 = "1350 azimut, janubi-sharqiy yo’nalish";
 
 function tek(){
-    var inp_one = document.getElementById('text1m');
-    var inp_two = document.getElementById('btn-text2').value;
-    var inp_three = document.getElementById('btn-text3').value;
-    var inp_four = document.getElementById('btn-text4').value;
-    var inp_five = document.getElementById('btn-text5').value;
-    var inp_six = document.getElementById('btn-text6').value;
-    var inp_seven = document.getElementById('btn-text7').value;
-    var inp_eight = document.getElementById('btn-text8').value;
+    var inp_one = document.getElementById('TextM1');
+    var input_two = document.getElementById('asddf');
+    var inp_three = document.getElementById('TextM3');
+    var inp_four = document.getElementById('TextM4');
+    var inp_five = document.getElementById('TextM5');
+    var inp_six = document.getElementById('TextM6');
+    var inp_seven = document.getElementById('TextM7');
+    var inp_eight = document.getElementById('TextM8');
 
     if(inp_one.value == Stext1){
         inp_one.style.backgroundColor = " #6ab04c";
@@ -23,10 +23,10 @@ function tek(){
         inp_one.style.backgroundColor = "#ff4d4d";
     }
 
-    if(inp_two.value == Stext2){
-        inp_two.style.backgroundColor = " #6ab04c";
+    if(input_two.value == Stext2){
+        input_two.style.backgroundColor = " #6ab04c";
     }else{
-        inp_two.style.backgroundColor = "#ff4d4d";
+        input_two.style.backgroundColor = "#ff4d4d";
     }
 
     if(inp_three.value == Stext3){
